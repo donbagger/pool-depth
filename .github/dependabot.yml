@@ -1,0 +1,11 @@
+# Keeps the hash-pinned requirements and the SHA-pinned workflow actions current.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

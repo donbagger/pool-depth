@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pool-depth"
+version = "1.0.0"
+description = "Is this pool deep enough for my trade? A CLI and agent tool on DexPaprika data"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Mateusz Sroka" }]
+requires-python = ">=3.10"
+dependencies = ["dexpaprika-sdk>=0.14.2,<0.15"]
+keywords = ["dexpaprika", "dex", "defi", "liquidity", "price-impact", "agent-tool"]
+
+[project.scripts]
+pool-depth = "pool_depth.cli:main"
+
+[project.urls]
+Source = "https://github.com/donbagger/pool-depth"
+"DexPaprika docs" = "https://docs.dexpaprika.com"
+
+[tool.setuptools]
+packages = ["pool_depth"]

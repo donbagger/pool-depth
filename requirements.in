@@ -1,0 +1,3 @@
+# Runtime dependencies. requirements.txt is generated from this file with hashes:
+#   uv pip compile requirements.in --universal --python-version 3.10 --generate-hashes -o requirements.txt
+dexpaprika-sdk==0.14.2

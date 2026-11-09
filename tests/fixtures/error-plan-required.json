@@ -1,0 +1,1 @@
+{"error":"plan_required","tier":"keyless","message":"this endpoint requires a Dev or Pro plan","required_tier":"dev","links":{"coupon":"https://dexpaprika.com/api/pricing?coupon=START10","docs":"https://docs.dexpaprika.com/","pricing":"https://dexpaprika.com/api/pricing","register":"https://console.dexpaprika.com"}}
