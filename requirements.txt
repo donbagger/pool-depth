@@ -182,9 +182,9 @@ charset-normalizer==3.5.2 \
     --hash=sha256:fd1fbe0f116b6e55da77aca2c6ddcddcfac2186cbf78bdebf40fc156efca389d \
     --hash=sha256:fe9753dfee015c570d73df76f899f18444d41388bffcde097deba51c4fadbb9f
     # via requests
-dexpaprika-sdk==0.14.2 \
-    --hash=sha256:c3cb9e2a59c9d4cbcc32c9b40b2d1d6d3383e66d5b6c625007c4c760c6482ebf \
-    --hash=sha256:eb1606c3e04498e7bec76c175a0cdffab231ba6c999ef7beeb5ccd4f96984165
+dexpaprika-sdk==0.14.3 \
+    --hash=sha256:c97a0dea156154e86ce37f280d0138b0a810d60a0f51e65d8fd514912e334e54 \
+    --hash=sha256:d25eee00e5d58733d7a4a7f4c0cb3d767c823c9dacb63e4316c644c3f37c0e83
     # via -r requirements.in
 idna==3.20 \
     --hash=sha256:a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44 \
